@@ -1,0 +1,36 @@
+ .table
+        {
+            height: 300px;
+            width: 500px;
+            margin-left: 500px;
+            margin-top: 200px;
+            background-color:#3d444f;
+        }
+  .btu
+        {
+            box-shadow: 2px 2px 5px 6px #eb99ff;
+            border: none;
+            font-size: 20px;
+            color: white;
+          
+        }
+   .btu1
+        {
+            margin-top: 25px;
+            margin-left: 23%;
+            box-shadow: 2px 2px 5px 6px #eb99ff;
+            border: none;
+            font-size: 40px;
+            color:#0d1a00;
+        }
+    @media all and (max-width: 574px)
+    {
+        .table
+        {
+            height: 300px;
+            width: 100%;
+            margin-left: 10px;
+            margin-top: 200px;       
+            background-color:#3d444f;
+        }
+    }
